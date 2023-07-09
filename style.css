@@ -28,3 +28,49 @@ body{
         font-style: italic;
         cursor: pointer;
 }
+.btn1{
+    padding: 15px 30px;
+    background-color: rgb(250, 62, 62);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.btn2{
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: rgb(250, 62, 62);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-container{
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(27, 5, 94, 0.607), rgba(31, 13, 150, 0.595));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.banner-description{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.banner-title{
+    font-size: 60px;
+    color: white;
+}
+.banner-title span{
+    color: red;
+}
+.banner-content{
+    color: white;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
