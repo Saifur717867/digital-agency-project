@@ -1,5 +1,24 @@
 *{
     padding: 0;
     margin: 0;
-    
+
 }
+.nav-container{
+    background-color: rgba(98, 96, 96, 0.985);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.manu-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+}
+    .manu-list li{
+        
+        text-transform: capitalize;
+        font-size: 20px;
+    }
