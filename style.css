@@ -73,4 +73,11 @@ body{
     font-size: 18px;
     padding: 20px 0;
 }
+.service-container{
+    background-image: url('./asset/image/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
 
