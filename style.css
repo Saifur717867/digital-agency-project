@@ -37,6 +37,7 @@ body{
     cursor: pointer;
     margin-right: 15px;
     text-transform: capitalize;
+    transition: 1s;
 }
 .btn2{
     padding: 15px 30px;
@@ -46,6 +47,16 @@ body{
     border-radius: 5px;
     cursor: pointer;
     text-transform: capitalize;
+    transition: 1s;
+}
+.btn1:hover{
+    background-color: #ffffff;
+    color: rgb(250, 62, 62);
+    
+}
+.btn2:hover{
+    background-color: rgb(250, 62, 62);
+    color: rgb(255, 255, 255);
 }
 .banner-container{
     background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(27, 5, 94, 0.607), rgba(31, 13, 150, 0.595));
@@ -98,16 +109,16 @@ body{
 .author{
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 .author-description{
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.author-neme{
+.author-name{
     border-right: 2px solid red;
-    padding: 10px 25px;
+    padding: 10px 50px 10px 0;
 }
 .boxs{
     display: flex;
