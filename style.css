@@ -93,7 +93,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 0;
+    padding: 125px 0;
     color: white;
 }
 .service-title{
@@ -141,7 +141,8 @@ body{
 }
 .box-icon{
     width: 80px;
-    height: 80px; 
+    height: 80px;
+    margin-right: 10px; 
 }
 .service-container{
     display: flex;
@@ -151,4 +152,22 @@ body{
 .col-left{
     width: 45%;
 }
-
+.call-to-action-container{
+    width: 70%;
+    padding: 30px;
+    background-color: #BB1919;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: -70px;
+}
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.phone-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* End the call to action section */
